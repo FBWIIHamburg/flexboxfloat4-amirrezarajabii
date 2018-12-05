@@ -1,0 +1,51 @@
+body{
+margin: 0;
+padding: 0;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    /* background-color: black; */
+    /* position: relative; */
+}
+.head{
+    display: flex;
+    background-color: blue;
+    height: 20vh;
+}
+.footer{
+    display: flex;
+    height: 20vh;;
+    flex: 100%;
+    background-color: red;
+}
+.mitt{
+    display: flex;
+    flex: 100%;
+    height:  auto;
+}
+.left{
+    display: flex;
+    flex: 1;
+    background-color: yellow;
+    height: auto;
+}
+.midd{
+    display: flex;
+    flex: 5;
+    background-color: lightgrey;
+    height: auto;
+}
+.right{
+    display: flex;
+    flex: 1;
+    background-color: green;
+    height: auto;
+}
+p{
+    padding: 2px;
+    margin: 2px;
+}
